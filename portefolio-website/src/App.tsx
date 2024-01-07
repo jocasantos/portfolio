@@ -1,4 +1,4 @@
-import { Flex, Grid, GridItem } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";

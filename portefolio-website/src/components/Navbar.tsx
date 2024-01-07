@@ -11,7 +11,7 @@ const Navbar = () => {
       height={20}
       align={"center"}
     >
-      <Text color={"white"} fontSize="xl">
+      <Text letterSpacing={1} color={"white"} fontSize="xl">
         João Santos
       </Text>
       <HambButton />
