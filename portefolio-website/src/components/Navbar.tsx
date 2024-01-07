@@ -3,7 +3,14 @@ import HambButton from "./HambButton";
 
 const Navbar = () => {
   return (
-    <Flex justifyContent="space-around" mt={8} height={10}>
+    <Flex
+      w="100%"
+      pos="fixed"
+      bg="black"
+      justifyContent="space-around"
+      height={20}
+      align={"center"}
+    >
       <Text color={"white"} fontSize="xl">
         João Santos
       </Text>

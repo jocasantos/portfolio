@@ -1,19 +1,25 @@
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Flex, Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <Grid
-      templateAreas={`"nav" "main" `}
-      gridTemplateRows={"100px 1fr"}
-      h="100vh"
-    >
-      <GridItem area="nav" bgColor="black">
-        <Navbar />
-      </GridItem>
-      <GridItem area={"main"} bgColor="white"></GridItem>
-    </Grid>
+    <>
+      <Navbar />
+      <Grid
+        templateAreas={`"home" "about" "projects" "contacts"`}
+        gridTemplateRows={"1fr"}
+        h="100vh"
+      >
+        <GridItem area="home" bg="white">
+          <Home />
+        </GridItem>
+        <GridItem area="about" bg="white"></GridItem>
+        <GridItem area="projects" bg="white"></GridItem>
+        <GridItem area="contacts" bg="white"></GridItem>
+      </Grid>
+    </>
   );
 }
 

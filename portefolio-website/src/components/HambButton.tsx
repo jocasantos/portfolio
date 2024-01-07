@@ -15,22 +15,23 @@ const HambButton = () => {
         aria-label="Menu"
         icon={<RxHamburgerMenu />}
         fontSize={30}
-        bgColor={"black"}
+        bg={"black"}
         color={"white"}
         _expanded={{ bg: "black", border: "1px" }}
         _focus={{ bg: "black" }}
+        _hover={{ bg: "black" }}
       />
-      <MenuList bgColor={"black"}>
-        <MenuItem justifyContent={"center"} bgColor={"black"}>
+      <MenuList bg={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"}>
           Home
         </MenuItem>
-        <MenuItem justifyContent={"center"} bgColor={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"}>
           About
         </MenuItem>
-        <MenuItem justifyContent={"center"} bgColor={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"}>
           Projects
         </MenuItem>
-        <MenuItem justifyContent={"center"} bgColor={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"}>
           Contacts
         </MenuItem>
       </MenuList>
