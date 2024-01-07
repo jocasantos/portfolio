@@ -1,5 +1,6 @@
 import { Button, HStack, Image, Stack, Text } from "@chakra-ui/react";
 import joca from "../assets/joca.jpeg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -55,6 +56,10 @@ const Home = () => {
         >
           Contact Info
         </Button>
+      </HStack>
+      <HStack mt={8} spacing={10}>
+        <FaLinkedin size={40} color="black" />
+        <FaGithub size={40} color="black" />
       </HStack>
     </Stack>
   );
