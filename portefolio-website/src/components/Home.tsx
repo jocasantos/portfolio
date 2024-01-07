@@ -1,4 +1,4 @@
-import { Image, Stack, Text } from "@chakra-ui/react";
+import { Button, HStack, Image, Stack, Text } from "@chakra-ui/react";
 import joca from "../assets/joca.jpeg";
 
 const Home = () => {
@@ -20,6 +20,42 @@ const Home = () => {
       <Text as={"b"} fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
         React Developer
       </Text>
+      <HStack mt={10}>
+        <Button
+          fontSize="sm"
+          px="21px"
+          height="53px"
+          color="black"
+          borderColor="black"
+          border="1px"
+          borderRadius="30px"
+          _hover={{
+            bg: "black",
+            color: "white",
+            transition: "0.2s",
+            transform: "scale(0.98)",
+          }}
+        >
+          Download CV
+        </Button>
+        <Button
+          ml={1}
+          border="1px"
+          borderRadius="30px"
+          fontSize="sm"
+          px="24px"
+          height="54px"
+          bg="RGBA(0, 0, 0, 0.50)"
+          _hover={{
+            bg: "black",
+            color: "white",
+            transition: "0.2s",
+            transform: "scale(0.98)",
+          }}
+        >
+          Contact Info
+        </Button>
+      </HStack>
     </Stack>
   );
 };
