@@ -2,9 +2,9 @@ import { Button, HStack, Image, Stack, Text } from "@chakra-ui/react";
 import joca from "../assets/joca.jpeg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Home = () => {
+const Hero = () => {
   return (
-    <Stack mt={40} align={"center"} direction={"column"}>
+    <Stack bg="white" h="100vh" pt={40} align={"center"} direction={"column"}>
       <Image
         objectFit="cover"
         boxSize={200}
@@ -65,4 +65,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;
