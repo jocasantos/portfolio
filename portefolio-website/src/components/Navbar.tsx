@@ -5,7 +5,8 @@ const Navbar = () => {
   return (
     <Flex
       w="100%"
-      pos="fixed"
+      zIndex="sticky"
+      position="fixed"
       bg="black"
       justifyContent="space-around"
       height={20}

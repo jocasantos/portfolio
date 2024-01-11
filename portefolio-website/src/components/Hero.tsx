@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <Stack bg="white" h="100vh" pt={40} align={"center"} direction={"column"}>
+    <Stack bg="white" h="100%" align={"center"} direction={"column"}>
       <Image
         objectFit="cover"
         boxSize={200}

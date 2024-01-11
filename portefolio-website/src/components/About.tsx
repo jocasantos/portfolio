@@ -5,8 +5,8 @@ import { FaCode } from "react-icons/fa";
 
 const About = () => {
   return (
-    <Stack bg="white" h="100vh" pt={32} align={"center"} direction={"column"}>
-      <Text as={"b"} fontSize={"medium"} mt={7} color={"RGBA(0, 0, 0, 0.36)"}>
+    <Stack bg="white" h="100%" align={"center"} direction={"column"}>
+      <Text as={"b"} fontSize={"medium"} color={"RGBA(0, 0, 0, 0.36)"}>
         Get To Know More
       </Text>
       <Text fontSize={"xx-large"} as={"b"} color={"black"}>
