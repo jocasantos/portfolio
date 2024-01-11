@@ -1,5 +1,5 @@
 import { Stack, Image, Card, CardBody, Flex } from "@chakra-ui/react";
-import jocagray from "../assets/joca_blackandwhite.webp";
+import jocacolor from "../assets/joca_color3.webp";
 import { Text } from "@chakra-ui/react";
 import { FaCode } from "react-icons/fa";
 
@@ -17,7 +17,7 @@ const About = () => {
         objectFit="contain"
         boxSize={140}
         borderRadius={40}
-        src={jocagray}
+        src={jocacolor}
         alt="Joao Santos"
         mb={2}
       />
