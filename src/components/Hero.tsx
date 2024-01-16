@@ -14,6 +14,7 @@ const Hero = () => {
         alt="Joao Santos"
       />
       <Text
+        fontWeight="500"
         letterSpacing={-1}
         fontSize={"medium"}
         mt={7}
@@ -22,7 +23,7 @@ const Hero = () => {
         Hello, I'm
       </Text>
       <Text
-        mt={-1}
+        mt={-3}
         letterSpacing={1}
         fontSize={"xx-large"}
         as={"b"}
@@ -30,7 +31,7 @@ const Hero = () => {
       >
         Joca
       </Text>
-      <Text as={"b"} fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
+      <Text fontWeight="600" fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
         React Developer
       </Text>
       <Box mt={10} />

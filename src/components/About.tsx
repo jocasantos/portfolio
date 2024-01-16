@@ -7,13 +7,20 @@ const About = () => {
   return (
     <Stack bg="white" h="100%" align={"center"} direction={"column"}>
       <Text
+        fontWeight="500"
         letterSpacing={-1}
         fontSize={"medium"}
         color={"RGBA(0, 0, 0, 0.36)"}
       >
         Get To Know More
       </Text>
-      <Text letterSpacing={1} fontSize={"xx-large"} as={"b"} color={"black"}>
+      <Text
+        mt={-2}
+        letterSpacing={1}
+        fontSize={"xx-large"}
+        as={"b"}
+        color={"black"}
+      >
         About Me
       </Text>
       <Image

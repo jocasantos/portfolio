@@ -6,7 +6,7 @@ const Contact = () => {
       <Text
         letterSpacing={-1}
         fontSize={"medium"}
-        fontWeight="400"
+        fontWeight="500"
         mt={7}
         color={"RGBA(0, 0, 0, 0.36)"}
       >
@@ -14,7 +14,7 @@ const Contact = () => {
       </Text>
       <Text
         letterSpacing={1}
-        mt={-1}
+        mt={-2}
         fontSize={"xx-large"}
         as={"b"}
         color={"black"}
