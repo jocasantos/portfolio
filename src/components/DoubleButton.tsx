@@ -16,6 +16,7 @@ const DoubleButton = ({
   return (
     <HStack>
       <Button
+        bg="white"
         fontSize="sm"
         px="21px"
         height={height}
@@ -33,6 +34,7 @@ const DoubleButton = ({
         {text}
       </Button>
       <Button
+        color="white"
         ml={1}
         border="1px"
         borderRadius="30px"
