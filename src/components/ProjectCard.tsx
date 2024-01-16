@@ -16,16 +16,20 @@ const ProjectCard = ({ text, text2 }: Props) => {
       w={300}
       h={370}
       borderRadius={26}
+      align="center"
     >
       <CardBody>
         <Image
+          ml={1}
           objectFit="cover"
           borderRadius={10}
           src={project1}
           alt="project 1 image"
+          w={220}
+          h={200}
         ></Image>
         <VStack>
-          <Heading mt={3} size="lg" color="black">
+          <Heading mt={3} size="md" color="black">
             {text}
           </Heading>
           <Text mb={2} color="RGBA(0, 0, 0, 0.36)">
