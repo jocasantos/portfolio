@@ -6,10 +6,14 @@ import { FaCode } from "react-icons/fa";
 const About = () => {
   return (
     <Stack bg="white" h="100%" align={"center"} direction={"column"}>
-      <Text as={"b"} fontSize={"medium"} color={"RGBA(0, 0, 0, 0.36)"}>
+      <Text
+        letterSpacing={-1}
+        fontSize={"medium"}
+        color={"RGBA(0, 0, 0, 0.36)"}
+      >
         Get To Know More
       </Text>
-      <Text fontSize={"xx-large"} as={"b"} color={"black"}>
+      <Text letterSpacing={1} fontSize={"xx-large"} as={"b"} color={"black"}>
         About Me
       </Text>
       <Image

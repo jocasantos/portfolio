@@ -13,17 +13,28 @@ const Hero = () => {
         src={joca}
         alt="Joao Santos"
       />
-      <Text as={"b"} fontSize={"medium"} mt={7} color={"RGBA(0, 0, 0, 0.36)"}>
+      <Text
+        letterSpacing={-1}
+        fontSize={"medium"}
+        mt={7}
+        color={"RGBA(0, 0, 0, 0.36)"}
+      >
         Hello, I'm
       </Text>
-      <Text my={-1} fontSize={"xx-large"} as={"b"} color={"black"}>
+      <Text
+        mt={-1}
+        letterSpacing={1}
+        fontSize={"xx-large"}
+        as={"b"}
+        color={"black"}
+      >
         Joca
       </Text>
       <Text as={"b"} fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
         React Developer
       </Text>
       <Box mt={10} />
-      <DoubleButton text="Download" text2="Contact Info" />
+      <DoubleButton text="Download CV" text2="Contact Info" />
       <HStack mt={8} spacing={10}>
         <FaLinkedin size={40} color="black" />
         <FaGithub size={40} color="black" />
