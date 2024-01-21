@@ -20,6 +20,10 @@ interface Props {
 }
 
 const ProjectCard = ({ text, text2, img, link, link2 }: Props) => {
+  const handleButtonClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.open(link2, "_blank");
+  };
   return (
     <Card
       as={Link}
@@ -53,9 +57,7 @@ const ProjectCard = ({ text, text2, img, link, link2 }: Props) => {
           </Text>
           <HStack spacing={4}>
             <Button
-              as={Link}
-              isExternal
-              href={link2}
+              onClick={handleButtonClick}
               leftIcon={<FaGithub size="20px" />}
               bg="white"
               fontSize="md"
