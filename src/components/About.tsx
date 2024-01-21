@@ -43,9 +43,9 @@ const About = () => {
             </Text>
             <Text fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
               Decided to change carrers at 2023, from a Fitness Instructor with
-              a Masters Degree at Sports Science. Worked for 5+ years in a small
-              team enviroment, without a boss presence. As a hobby I'm a Futsal
-              Coach for kids for 10+ years.
+              a Master's degree at Sports Science. Worked for 5+ years in a
+              small team enviroment, without a boss presence. As a hobby I'm a
+              Futsal Coach for kids for 10+ years.
             </Text>
           </Flex>
         </CardBody>
