@@ -31,13 +31,14 @@ const Contact = () => {
         height={16}
         align="center"
         mt={4}
-        px={1}
+        px={2}
       >
         <Button
           leftIcon={<MdEmail />}
           color="black"
           fontSize="sm"
           fontWeight={400}
+          bg="white"
           _hover={{ transform: "scale(1.05)" }}
         >
           joaopcsantos1@gmail.com
@@ -47,6 +48,7 @@ const Contact = () => {
           color="black"
           fontSize="sm"
           fontWeight={400}
+          bg="white"
           _hover={{ transform: "scale(1.05)" }}
         >
           LinkedIn
