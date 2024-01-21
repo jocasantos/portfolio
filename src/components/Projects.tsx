@@ -29,6 +29,8 @@ const Projects = () => {
           img={GamesHub}
           text="Video Games Library"
           text2="React, TypeScript, Chakra UI"
+          link="https://game-grove.vercel.app/"
+          link2="https://github.com/jocasantos/game-hub"
         />
       </Flex>
       <Box mt={4} />
@@ -37,6 +39,8 @@ const Projects = () => {
           img={SladWebsite}
           text="Local Team's Website"
           text2="HTML, CSS, JavaScript"
+          link="https://jocasantos.github.io/SLAD"
+          link2="https://github.com/jocasantos/SLAD"
         />
       </Flex>
     </Stack>

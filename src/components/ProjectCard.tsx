@@ -1,15 +1,30 @@
-import { Card, CardBody, Heading, Image, Text, VStack } from "@chakra-ui/react";
-import DoubleButton from "./DoubleButton";
+import {
+  Button,
+  Card,
+  CardBody,
+  HStack,
+  Heading,
+  Image,
+  Link,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
+import { FaGithub } from "react-icons/fa";
 
 interface Props {
   text: string;
   text2: string;
   img: string;
+  link: string;
+  link2: string;
 }
 
-const ProjectCard = ({ text, text2, img }: Props) => {
+const ProjectCard = ({ text, text2, img, link, link2 }: Props) => {
   return (
     <Card
+      as={Link}
+      href={link}
+      isExternal
       bg="white"
       variant="outline"
       borderColor="black"
@@ -17,6 +32,7 @@ const ProjectCard = ({ text, text2, img }: Props) => {
       h={370}
       borderRadius={26}
       align="center"
+      _hover={{ textDecoration: "none" }}
     >
       <CardBody>
         <Image
@@ -35,12 +51,31 @@ const ProjectCard = ({ text, text2, img }: Props) => {
           <Text mb={2} color="RGBA(0, 0, 0, 0.36)">
             {text2}
           </Text>
-          <DoubleButton
-            text="GitHub"
-            text2="Live Demo"
-            height="40px"
-            height2="41px"
-          />
+          <HStack spacing={4}>
+            <Button
+              as={Link}
+              isExternal
+              href={link2}
+              leftIcon={<FaGithub size="20px" />}
+              bg="white"
+              fontSize="md"
+              px="21px"
+              height="40px"
+              color="black"
+              borderColor="black"
+              border="1px"
+              borderRadius="30px"
+              _hover={{
+                bg: "black",
+                color: "white",
+                transition: "0.2s",
+                transform: "scale(0.98)",
+                textDecoration: "none",
+              }}
+            >
+              GitHub
+            </Button>
+          </HStack>
         </VStack>
       </CardBody>
     </Card>
