@@ -1,13 +1,13 @@
 import { Card, CardBody, Heading, Image, Text, VStack } from "@chakra-ui/react";
 import DoubleButton from "./DoubleButton";
-import project1 from "../assets/slad_project_img.jpeg";
 
 interface Props {
   text: string;
   text2: string;
+  img: string;
 }
 
-const ProjectCard = ({ text, text2 }: Props) => {
+const ProjectCard = ({ text, text2, img }: Props) => {
   return (
     <Card
       bg="white"
@@ -23,7 +23,7 @@ const ProjectCard = ({ text, text2 }: Props) => {
           ml={1}
           objectFit="cover"
           borderRadius={10}
-          src={project1}
+          src={img}
           alt="project 1 image"
           w={220}
           h={200}

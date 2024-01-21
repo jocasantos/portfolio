@@ -1,4 +1,4 @@
-import { Button, Flex, HStack, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, HStack, Stack, Text } from "@chakra-ui/react";
 import { MdEmail, MdCopyright } from "react-icons/md";
 
 const Contact = () => {
@@ -31,6 +31,7 @@ const Contact = () => {
         height={16}
         align="center"
         mt={4}
+        px={1}
       >
         <Button
           leftIcon={<MdEmail />}
@@ -51,7 +52,8 @@ const Contact = () => {
           LinkedIn
         </Button>
       </Flex>
-      <Stack direction="row" spacing={8} mt={40}>
+      <Box height={80}></Box>
+      <Stack direction="row" spacing={8}>
         <Text color="black" fontWeight={500}>
           Home
         </Text>
@@ -71,7 +73,7 @@ const Contact = () => {
         </Text>
         <MdCopyright size={10} color="gray" />
         <Text ml={-1} color="gray" fontSize={"x-small"}>
-          2024 João Santos. All Rights Reserved
+          2023 João Santos. All Rights Reserved
         </Text>
       </HStack>
     </Stack>
