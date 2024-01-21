@@ -1,4 +1,4 @@
-import { Box, HStack, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, HStack, Image, Link, Stack, Text } from "@chakra-ui/react";
 import joca from "../assets/joca.jpeg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import DoubleButton from "./DoubleButton";
@@ -37,8 +37,15 @@ const Hero = () => {
       <Box mt={10} />
       <DoubleButton text="Download CV" text2="Contact Info" />
       <HStack mt={8} spacing={10}>
-        <FaLinkedin size={40} color="black" />
-        <FaGithub size={40} color="black" />
+        <Link
+          isExternal
+          href="https://www.linkedin.com/in/jo%C3%A3o-santos-b10bbb295/"
+        >
+          <FaLinkedin size={40} color="black" />
+        </Link>
+        <Link isExternal href="https://github.com/jocasantos">
+          <FaGithub as="Link" size={40} color="black" />
+        </Link>
       </HStack>
     </Stack>
   );
