@@ -65,7 +65,7 @@ const About = () => {
               <b>React + TypeScript</b>... I did love it! Already tried
               different UI libraries, like <b>Shadcn/UI</b>, <b>Chakra UI</b>,
               <b> Bootstrap</b> and <b>Tailwind</b>. Right now I'm building a
-              full stack project with Next.JS.
+              full stack project with <b>Next.JS</b>.
             </Text>
           </Flex>
         </CardBody>

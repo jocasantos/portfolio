@@ -1,7 +1,8 @@
-import { Box, HStack, Image, Link, Stack, Text } from "@chakra-ui/react";
+import { Box, HStack, Image, Img, Link, Stack, Text } from "@chakra-ui/react";
 import joca from "../assets/joca.jpeg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import DoubleButton from "./DoubleButton";
+import flag from "../assets/portugal-07.svg";
 
 const Hero = () => {
   return (
@@ -22,29 +23,32 @@ const Hero = () => {
       >
         Hello, I'm
       </Text>
-      <Text
-        mt={-3}
-        letterSpacing={1}
-        fontSize={"xx-large"}
-        as={"b"}
-        color={"black"}
-      >
-        Joca
-      </Text>
+      <HStack mt={-3}>
+        <Img boxSize={9} src={flag} />
+        <Text letterSpacing={1} fontSize={"xx-large"} as={"b"} color={"black"}>
+          Joca
+        </Text>
+      </HStack>
       <Text fontWeight="600" fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
         React Developer
       </Text>
+
       <Box mt={10} />
       <DoubleButton text="Download CV" text2="Contact Info" />
       <HStack mt={8} spacing={10}>
         <Link
+          _hover={{ transform: "scale(1.1)" }}
           isExternal
           href="https://www.linkedin.com/in/jo%C3%A3o-santos-b10bbb295/"
         >
           <FaLinkedin size={40} color="black" />
         </Link>
-        <Link isExternal href="https://github.com/jocasantos">
-          <FaGithub as="Link" size={40} color="black" />
+        <Link
+          _hover={{ transform: "scale(1.1)" }}
+          isExternal
+          href="https://github.com/jocasantos"
+        >
+          <FaGithub size={40} color="black" />
         </Link>
       </HStack>
     </Stack>
