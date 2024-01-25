@@ -1,5 +1,6 @@
 import { Box, Button, Flex, HStack, Stack, Text } from "@chakra-ui/react";
 import { MdEmail, MdCopyright } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Contact = () => {
   return (
@@ -62,18 +63,54 @@ const Contact = () => {
       </Flex>
       <Box height={80}></Box>
       <Stack direction="row" spacing={8}>
-        <Text color="black" fontWeight={500}>
-          Home
-        </Text>
-        <Text color="black" fontWeight={500}>
-          About
-        </Text>
-        <Text color="black" fontWeight={500}>
-          Projects
-        </Text>
-        <Text color="black" fontWeight={500}>
-          Contact
-        </Text>
+        <Link
+          to="Home"
+          spy={true}
+          smooth={true}
+          offset={-160}
+          duration={500}
+          key={"Home"}
+        >
+          <Text color="black" fontWeight={500}>
+            Home
+          </Text>
+        </Link>
+        <Link
+          to="About"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          key={"About"}
+        >
+          <Text color="black" fontWeight={500}>
+            About
+          </Text>
+        </Link>
+        <Link
+          to="Projects"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          key={"Projects"}
+        >
+          <Text color="black" fontWeight={500}>
+            Projects
+          </Text>
+        </Link>
+        <Link
+          to="Contact"
+          spy={true}
+          smooth={true}
+          offset={-160}
+          duration={500}
+          key={"Contact"}
+        >
+          <Text color="black" fontWeight={500}>
+            Contact
+          </Text>
+        </Link>
       </Stack>
       <HStack mt={4} mb={10}>
         <Text mr={-1} color="gray" fontSize={"x-small"}>
