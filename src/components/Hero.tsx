@@ -1,8 +1,17 @@
-import { Box, HStack, Image, Img, Link, Stack, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  HStack,
+  Image,
+  Img,
+  Link,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 import joca from "../assets/joca.jpeg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import DoubleButton from "./DoubleButton";
 import flag from "../assets/portugal-07.svg";
+import { Link as Scroll } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -34,7 +43,53 @@ const Hero = () => {
       </Text>
 
       <Box mt={10} />
-      <DoubleButton text="Download CV" text2="Contact Info" />
+      <HStack>
+        <Button
+          bg="white"
+          fontSize="sm"
+          px="21px"
+          height="53px"
+          color="black"
+          borderColor="black"
+          border="1px"
+          borderRadius="30px"
+          _hover={{
+            bg: "black",
+            color: "white",
+            transition: "0.2s",
+            transform: "scale(0.98)",
+          }}
+        >
+          Download CV
+        </Button>
+        <Scroll
+          to="Contact"
+          spy={true}
+          smooth={true}
+          offset={-160}
+          duration={500}
+          key={"Contact2"}
+        >
+          <Button
+            color="white"
+            ml={1}
+            border="1px"
+            borderRadius="30px"
+            fontSize="sm"
+            px="24px"
+            height="54px"
+            bg="RGBA(0, 0, 0, 0.50)"
+            _hover={{
+              bg: "black",
+              color: "white",
+              transition: "0.2s",
+              transform: "scale(0.98)",
+            }}
+          >
+            Contact Info
+          </Button>
+        </Scroll>
+      </HStack>
       <HStack mt={8} spacing={10}>
         <Link
           _hover={{ transform: "scale(1.1)" }}
