@@ -3,7 +3,13 @@ import { MdEmail, MdCopyright } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <Stack bg="white" h="100%" align={"center"} direction={"column"}>
+    <Stack
+      id="Contact"
+      bg="white"
+      h="100%"
+      align={"center"}
+      direction={"column"}
+    >
       <Text
         letterSpacing={-1}
         fontSize={"medium"}

@@ -5,7 +5,13 @@ import GamesHub from "../assets/games-hub.jpeg";
 
 const Projects = () => {
   return (
-    <Stack bg="white" h="100%" align={"center"} direction={"column"}>
+    <Stack
+      id="Projects"
+      bg="white"
+      h="100%"
+      align={"center"}
+      direction={"column"}
+    >
       <Text
         fontWeight="500"
         letterSpacing={-1}

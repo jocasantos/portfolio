@@ -1,5 +1,6 @@
-import { Flex, Link, Text, useMediaQuery } from "@chakra-ui/react";
+import { Flex, Text, useMediaQuery } from "@chakra-ui/react";
 import HambButton from "./HambButton";
+import { Link } from "react-scroll";
 
 const menu = ["Home", "About", "Projects", "Contact"];
 
@@ -21,8 +22,21 @@ const Navbar = () => {
       <Flex>
         {isMdScreen ? (
           menu.map((i) => (
-            <Link key={i} px={4}>
-              {i}
+            <Link
+              to={i}
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              key={i}
+            >
+              <Text
+                cursor="pointer"
+                _hover={{ transform: "scale(1.1)" }}
+                px={4}
+              >
+                {i}
+              </Text>
             </Link>
           ))
         ) : (

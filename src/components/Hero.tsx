@@ -6,7 +6,7 @@ import flag from "../assets/portugal-07.svg";
 
 const Hero = () => {
   return (
-    <Stack bg="white" h="100%" align={"center"} direction={"column"}>
+    <Stack id="Home" bg="white" h="100%" align={"center"} direction={"column"}>
       <Image
         objectFit="cover"
         boxSize={200}

@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa";
 
 const About = () => {
   return (
-    <Stack bg="white" h="100%" align={"center"} direction={"column"}>
+    <Stack id="About" bg="white" h="100%" align={"center"} direction={"column"}>
       <Text
         fontWeight="500"
         letterSpacing={-1}
