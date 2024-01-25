@@ -1,7 +1,10 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Link, Text, useMediaQuery } from "@chakra-ui/react";
 import HambButton from "./HambButton";
 
+const menu = ["Home", "About", "Projects", "Contact"];
+
 const Navbar = () => {
+  const [isMdScreen] = useMediaQuery("(min-width: 48em)");
   return (
     <Flex
       w="100%"
@@ -15,7 +18,17 @@ const Navbar = () => {
       <Text letterSpacing={1} color={"white"} fontSize="xl">
         João Santos
       </Text>
-      <HambButton />
+      <Flex>
+        {isMdScreen ? (
+          menu.map((i) => (
+            <Link key={i} px={4}>
+              {i}
+            </Link>
+          ))
+        ) : (
+          <HambButton />
+        )}
+      </Flex>
     </Flex>
   );
 };

@@ -22,16 +22,16 @@ const HambButton = () => {
         _hover={{ bg: "black" }}
       />
       <MenuList bg={"black"}>
-        <MenuItem justifyContent={"center"} bg={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"} color="white">
           Home
         </MenuItem>
-        <MenuItem justifyContent={"center"} bg={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"} color="white">
           About
         </MenuItem>
-        <MenuItem justifyContent={"center"} bg={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"} color="white">
           Projects
         </MenuItem>
-        <MenuItem justifyContent={"center"} bg={"black"}>
+        <MenuItem justifyContent={"center"} bg={"black"} color="white">
           Contacts
         </MenuItem>
       </MenuList>
