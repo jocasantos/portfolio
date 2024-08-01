@@ -62,7 +62,7 @@ const Contact = () => {
         </Button>
       </Flex>
       <Box height={80}></Box>
-      <Stack direction="row" spacing={8}>
+      <Stack cursor={"pointer"} direction="row" spacing={8}>
         <Link
           to="Home"
           spy={true}

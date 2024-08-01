@@ -2,6 +2,7 @@ import { Box, Flex, Stack, Text } from "@chakra-ui/react";
 import ProjectCard from "./ProjectCard";
 import SladWebsite from "../assets/slad_project_img.jpeg";
 import GamesHub from "../assets/games-hub.jpeg";
+import MuscleTracker from "../assets/MuscleTracker.jpeg";
 
 const Projects = () => {
   return (
@@ -29,6 +30,17 @@ const Projects = () => {
       >
         Projects
       </Text>
+      <Box mt={4} />
+
+      <Flex>
+        <ProjectCard
+          img={MuscleTracker}
+          text="Muscle Tracker"
+          text2="React, TypeScript, MongoDB, shadcn/ui, Tailwind, Clerk, Stripe, Vercel"
+          link="https://www.muscletracker.fit/"
+          link2="https://github.com/jocasantos/gym-plans"
+        />
+      </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard

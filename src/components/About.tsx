@@ -42,10 +42,10 @@ const About = () => {
               Carrer Change
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-              Decided to change carrer at 2023, from a Fitness Instructor with a
-              Master's degree at Sports Science. Worked for 5+ years in a small
-              team enviroment, without a boss presence. Was a Kid's Futsal Coach
-              for 10+ years.
+              I decided to change my career in the summer of 2023. Previously, I
+              was a Fitness Instructor with 5+ years of experience and a
+              Master's degree in Sports Science. During that time, I also
+              coached kid's futsal for over 10 years.
             </Text>
           </Flex>
         </CardBody>
@@ -60,12 +60,11 @@ const About = () => {
               Coding
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-              I'm a self-learner, with focus on front-end development. After I
-              learned HTML, CSS and JavaScript, I started to learn{" "}
-              <b>React + TypeScript</b>... I did love it! Already tried
-              different UI libraries, like <b>Shadcn/UI</b>, <b>Chakra UI</b>,
-              <b> Bootstrap</b> and <b>Tailwind</b>. Right now I'm building a
-              full stack project with <b>Next.JS</b>.
+              I'm a self-learner, after I learned HTML, CSS and JavaScript, I
+              started to learn <b>React + TypeScript</b>. I did love it! Already
+              tried different UI libraries, like <b>Shadcn/UI</b>,{" "}
+              <b>Chakra UI</b>,<b> Bootstrap</b> and <b>Tailwind</b>. Right now
+              I'm building a full stack project with <b>Next.JS</b>.
             </Text>
           </Flex>
         </CardBody>
