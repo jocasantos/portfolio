@@ -36,7 +36,7 @@ const Projects = () => {
         <ProjectCard
           img={MuscleTracker}
           text="Muscle Tracker"
-          text2="React, TypeScript, MongoDB, shadcn/ui, Tailwind, Clerk, Stripe, Vercel"
+          text2="NextJS, TypeScript, MongoDB, shadcn/ui, Tailwind, Clerk, Stripe, Vercel"
           link="https://www.muscletracker.fit/"
           link2="https://github.com/jocasantos/gym-plans"
         />

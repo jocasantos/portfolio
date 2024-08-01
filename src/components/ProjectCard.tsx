@@ -33,26 +33,28 @@ const ProjectCard = ({ text, text2, img, link, link2 }: Props) => {
       variant="outline"
       borderColor="black"
       w={300}
-      h={370}
+      minHeight={370}
+      maxHeight={420}
       borderRadius={26}
       align="center"
       _hover={{ textDecoration: "none" }}
     >
       <CardBody>
-        <Image
-          ml={1}
-          objectFit="cover"
-          borderRadius={10}
-          src={img}
-          alt="project 1 image"
-          w={220}
-          h={200}
-        ></Image>
         <VStack>
+          <Image
+            ml={1}
+            objectFit="cover"
+            borderRadius={10}
+            src={img}
+            alt="project 1 image"
+            w={220}
+            h={200}
+          ></Image>
+
           <Heading mt={3} size="md" color="black">
             {text}
           </Heading>
-          <Text mb={2} color="RGBA(0, 0, 0, 0.36)">
+          <Text mb={2} color="RGBA(0, 0, 0, 0.36)" textAlign={"center"}>
             {text2}
           </Text>
           <HStack spacing={4}>
