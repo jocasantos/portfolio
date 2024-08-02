@@ -44,8 +44,8 @@ const About = () => {
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
               I decided to change my career in the summer of 2023. Previously, I
               was a Fitness Instructor with 5+ years of experience and a
-              Master's degree in Sports Science. During that time, I also
-              coached kid's futsal for over 10 years.
+              Master's degree in Sports Science. During that time, I also was a
+              kid's futsal coach.
             </Text>
           </Flex>
         </CardBody>
@@ -60,11 +60,18 @@ const About = () => {
               Coding
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-              I'm a self-learner, after I learned HTML, CSS and JavaScript, I
-              started to learn <b>React + TypeScript</b>. I did love it! Already
-              tried different UI libraries, like <b>Shadcn/UI</b>,{" "}
-              <b>Chakra UI</b>,<b> Bootstrap</b> and <b>Tailwind</b>. Right now
-              I'm building a full stack project with <b>Next.JS</b>.
+              I am a dedicated self-learner with a strong foundation in web
+              development. My journey began with mastering <b>HTML</b>,{" "}
+              <b>CSS</b> and <b>JavaScript</b>, which laid the groundwork for my
+              skills. I then advanced to <b>React + TypeScript</b>, developing
+              robust front-end applications.<br></br>
+              <br></br> To deepen my knowledge, I explored the backend with{" "}
+              <b>Next.JS</b>, focusing on critical aspects like{" "}
+              <b>Authentication</b> and database management, both <b>SQL</b> and{" "}
+              <b>NoSQL</b>.<br></br>
+              <br></br> Currently, my primary focus is on expanding my expertise
+              in <b>Cloud Computing</b> and <b>DevOps</b>, aiming to understand
+              and integrate modern development and deployment practices.
             </Text>
           </Flex>
         </CardBody>
