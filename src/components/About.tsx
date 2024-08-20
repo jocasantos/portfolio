@@ -42,10 +42,9 @@ const About = () => {
               Carrer Change
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-              I decided to change my career in the summer of 2023. Previously, I
-              was a Fitness Instructor with 5+ years of experience and a
-              Master's degree in Sports Science. During that time, I also was a
-              kid's futsal coach.
+              Previously, I was a Fitness Instructor with 5+ years of experience
+              and a Master's degree in Sports Science. During that time, I also
+              was a kid's futsal coach.
             </Text>
           </Flex>
         </CardBody>
