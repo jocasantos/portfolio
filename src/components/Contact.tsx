@@ -1,6 +1,15 @@
-import { Box, Button, Flex, HStack, Stack, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  HStack,
+  Image,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 import { MdEmail, MdCopyright } from "react-icons/md";
 import { Link } from "react-scroll";
+import clf from "../assets/clf.png";
 
 const Contact = () => {
   return (
@@ -61,7 +70,11 @@ const Contact = () => {
           LinkedIn
         </Button>
       </Flex>
-      <Box height={80}></Box>
+      <Box height={10}></Box>
+      <Stack direction="row" spacing={8}>
+        <Image src={clf} />
+      </Stack>
+      <Box height={40}></Box>
       <Stack cursor={"pointer"} direction="row" spacing={8}>
         <Link
           to="Home"
