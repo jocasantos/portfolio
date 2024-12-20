@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import SladWebsite from "../assets/slad_project_img.jpeg";
 import GamesHub from "../assets/games-hub.jpeg";
 import MuscleTracker from "../assets/MuscleTracker.jpeg";
+import DevOps from "../assets/DevOps.png";
 
 const Projects = () => {
   return (
@@ -31,7 +32,16 @@ const Projects = () => {
         Projects
       </Text>
       <Box mt={4} />
-
+      <Flex>
+        <ProjectCard
+          img={DevOps}
+          text="DevOps #1"
+          text2="EC2, Security Groups, IAM, SSH, Linux, SHELL"
+          link="https://github.com/jocasantos/aws-nodejs-app-demo"
+          link2="https://github.com/jocasantos/aws-nodejs-app-demo"
+        />
+      </Flex>
+      <Box mt={4} />
       <Flex>
         <ProjectCard
           img={MuscleTracker}

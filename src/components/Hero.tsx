@@ -39,7 +39,7 @@ const Hero = () => {
         </Text>
       </HStack>
       <Text fontWeight="600" fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
-        Full-Stack Developer / Cloud Engineer
+        DevOps Engineer / Full-Stack Developer
       </Text>
 
       <Box mt={10} />

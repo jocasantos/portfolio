@@ -43,8 +43,7 @@ const About = () => {
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
               Previously, I was a Fitness Instructor and a Futsal's Head Coach
-              with 5+ years of experience and a Master's degree in Sports
-              Science.
+              with a Master's degree in Sports Science. I'm a husband and father of two.
             </Text>
           </Flex>
         </CardBody>
@@ -69,7 +68,7 @@ const About = () => {
               <b>Authentication</b> and database management, both <b>SQL</b> and{" "}
               <b>NoSQL</b>.<br></br>
               <br></br> Currently, my primary focus is on expanding my expertise
-              in <b>Cloud Computing</b> and <b>DevOps</b>, aiming to understand
+              in <b>DevOps</b> and <b>Cloud Computing</b>, aiming to understand
               and integrate modern development and deployment practices.
             </Text>
           </Flex>
