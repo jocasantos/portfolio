@@ -4,6 +4,8 @@ import SladWebsite from "../assets/slad_project_img.jpeg";
 import GamesHub from "../assets/games-hub.jpeg";
 import MuscleTracker from "../assets/MuscleTracker.jpeg";
 import DevOps from "../assets/DevOps.png";
+import ConfigurationManagement from "../assets/ConfigurationManagement.png";
+import ScriptShell from "../assets/ScriptShell.png";
 
 const Projects = () => {
   return (
@@ -34,11 +36,31 @@ const Projects = () => {
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={DevOps}
-          text="DevOps #1"
-          text2="EC2, Security Groups, IAM, SSH, Linux, SHELL"
+          img={ConfigurationManagement}
+          text="DevOps #3"
+          text2="Ansible, AWS, EC2, SSH, Linux"
           link="https://github.com/jocasantos/aws-nodejs-app-demo"
           link2="https://github.com/jocasantos/aws-nodejs-app-demo"
+        />
+      </Flex>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+          img={DevOps}
+          text="DevOps #2"
+          text2="AWS, EC2, Security Groups, IAM, SSH, Linux, SHELL"
+          link="https://github.com/jocasantos/aws-nodejs-app-demo"
+          link2="https://github.com/jocasantos/aws-nodejs-app-demo"
+        />
+      </Flex>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+          img={ScriptShell}
+          text="DevOps #1"
+          text2="AWS, S3, Linux, SHELL"
+          link="https://github.com/jocasantos/CloudUploaderCLI"
+          link2="https://github.com/jocasantos/CloudUploaderCLI"
         />
       </Flex>
       <Box mt={4} />
