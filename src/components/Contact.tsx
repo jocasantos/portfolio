@@ -72,11 +72,11 @@ const Contact = () => {
       </Flex>
       <Box height={10}></Box>
       <Stack direction="row" spacing={8}>
-        <Image  
-        src={clf}
-        as={Link}
-        href={"www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7"}
-        />
+        <Link to="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7">
+          <Image  
+          src={clf}
+          />
+        </Link>
       </Stack>
       <Box height={40}></Box>
       <Stack cursor={"pointer"} direction="row" spacing={8}>
