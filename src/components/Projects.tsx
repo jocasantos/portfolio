@@ -39,8 +39,8 @@ const Projects = () => {
           img={ConfigurationManagement}
           text="DevOps #3"
           text2="Ansible, AWS, EC2, SSH, Linux"
-          link="https://github.com/jocasantos/aws-nodejs-app-demo"
-          link2="https://github.com/jocasantos/aws-nodejs-app-demo"
+          link="https://github.com/jocasantos/how-to-manage-remote-servers-with-ansible"
+          link2="https://github.com/jocasantos/how-to-manage-remote-servers-with-ansible"
         />
       </Flex>
       <Box mt={4} />
@@ -58,7 +58,7 @@ const Projects = () => {
         <ProjectCard
           img={ScriptShell}
           text="DevOps #1"
-          text2="AWS, S3, Linux, SHELL"
+          text2="AWS CLI, S3, Linux, SHELL"
           link="https://github.com/jocasantos/CloudUploaderCLI"
           link2="https://github.com/jocasantos/CloudUploaderCLI"
         />
