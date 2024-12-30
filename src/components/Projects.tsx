@@ -6,6 +6,7 @@ import MuscleTracker from "../assets/MuscleTracker.jpeg";
 import DevOps from "../assets/DevOps.png";
 import ConfigurationManagement from "../assets/ConfigurationManagement.png";
 import ScriptShell from "../assets/ScriptShell.png";
+import terraformbasic from "../assets/terraformbasic.png";
 
 const Projects = () => {
   return (
@@ -36,8 +37,18 @@ const Projects = () => {
       <Box mt={4} />
       <Flex>
         <ProjectCard
+          img={terraformbasic}
+          text="Terraform Project"
+          text2="Terraform, AWS, EC2, S3, DynamoDB"
+          link="https://github.com/jocasantos/terraform-local-and-remote-state"
+          link2="https://github.com/jocasantos/terraform-local-and-remote-state"
+        />
+      </Flex>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
           img={ConfigurationManagement}
-          text="DevOps #3"
+          text="Ansible Project"
           text2="Ansible, AWS, EC2, SSH, Linux"
           link="https://github.com/jocasantos/how-to-manage-remote-servers-with-ansible"
           link2="https://github.com/jocasantos/how-to-manage-remote-servers-with-ansible"
@@ -47,7 +58,7 @@ const Projects = () => {
       <Flex>
         <ProjectCard
           img={DevOps}
-          text="DevOps #2"
+          text="AWS Project"
           text2="AWS, EC2, Security Groups, IAM, SSH, Linux, SHELL"
           link="https://github.com/jocasantos/aws-nodejs-app-demo"
           link2="https://github.com/jocasantos/aws-nodejs-app-demo"
@@ -57,7 +68,7 @@ const Projects = () => {
       <Flex>
         <ProjectCard
           img={ScriptShell}
-          text="DevOps #1"
+          text="SHELL Project"
           text2="AWS CLI, S3, Linux, SHELL"
           link="https://github.com/jocasantos/CloudUploaderCLI"
           link2="https://github.com/jocasantos/CloudUploaderCLI"
