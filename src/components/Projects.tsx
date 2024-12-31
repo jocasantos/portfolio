@@ -7,7 +7,7 @@ import DevOps from "../assets/DevOps.png";
 import ConfigurationManagement from "../assets/ConfigurationManagement.png";
 import ScriptShell from "../assets/ScriptShell.png";
 import terraformbasic from "../assets/terraformbasic.png";
-import jenkins_basic from "../assets/jenkins basic.png";
+import jenkinsBasic from "../assets/jenkinsBasic.png";
 
 const Projects = () => {
   return (
@@ -38,7 +38,7 @@ const Projects = () => {
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={jenkins_basic}
+          img={jenkinsBasic}
           text="Jenkins Project"
           text2="Jenkins, Docker, Git, AWS, Bash"
           link="https://github.com/jocasantos/jenkins-simple-pipeline-docker"
