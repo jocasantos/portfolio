@@ -8,7 +8,7 @@ import ConfigurationManagement from "../assets/ConfigurationManagement.png";
 import ScriptShell from "../assets/ScriptShell.png";
 import terraformbasic from "../assets/terraformbasic.png";
 import jenkinsBasic from "../assets/jenkinsBasic.png";
-import github_actions from "../assets/github_actions.png";
+import githubActions from "../assets/github_actions.png";
 
 const Projects = () => {
   return (
@@ -39,7 +39,7 @@ const Projects = () => {
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={github_actions}
+          img={githubActions}
           text="GitHub Actions Project"
           text2="GitHub Actions, AWS, EC2, CI/CD, Python"
           link="https://github.com/jocasantos/github-actions-self-host-runner-example"
