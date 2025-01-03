@@ -8,7 +8,7 @@ import ConfigurationManagement from "../assets/ConfigurationManagement.png";
 import ScriptShell from "../assets/ScriptShell.png";
 import terraformbasic from "../assets/terraformbasic.png";
 import jenkinsBasic from "../assets/jenkinsBasic.png";
-import githubActions from "../assets/github_actions.png";
+import githubActions from "../assets/githubActions.png";
 
 const Projects = () => {
   return (
