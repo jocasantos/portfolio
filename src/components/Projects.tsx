@@ -9,7 +9,7 @@ import ScriptShell from "../assets/ScriptShell.png";
 import terraformbasic from "../assets/terraformbasic.png";
 import jenkinsBasic from "../assets/jenkinsBasic.png";
 import githubActions from "../assets/githubActions.png";
-import dockerproject from "../assets/dockerproject.png";
+import dockerproject2 from "../assets/dockerproject.png";
 
 const Projects = () => {
   return (
@@ -40,7 +40,7 @@ const Projects = () => {
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={dockerproject}
+          img={dockerproject2}
           text="Docker Project"
           text2="Docker, Docker Compose, Linux, MERN Stack"
           link="https://github.com/jocasantos/docker-mern-app-with-and-without-docker-compose"
