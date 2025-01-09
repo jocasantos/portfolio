@@ -9,7 +9,7 @@ import ScriptShell from "../assets/ScriptShell.png";
 import terraformbasic from "../assets/terraformbasic.png";
 import jenkinsBasic from "../assets/jenkinsBasic.png";
 import githubActions from "../assets/githubActions.png";
-import dockerproject2 from "../assets/dockerproject.png";
+import dockerproject2 from "../assets/dockerproject2.png";
 
 const Projects = () => {
   return (
