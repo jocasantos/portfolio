@@ -10,7 +10,7 @@ import terraformbasic from "../assets/terraformbasic.png";
 import jenkinsBasic from "../assets/jenkinsBasic.png";
 import githubActions from "../assets/githubActions.png";
 import dockerproject2 from "../assets/dockerproject2.png";
-import k8sMonit from "../assets/k8sMonit.png";
+import k8sMonit from "../assets/k8s-monit.png";
 
 const Projects = () => {
   return (
