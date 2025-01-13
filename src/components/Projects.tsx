@@ -10,6 +10,7 @@ import terraformbasic from "../assets/terraformbasic.png";
 import jenkinsBasic from "../assets/jenkinsBasic.png";
 import githubActions from "../assets/githubActions.png";
 import dockerproject2 from "../assets/dockerproject2.png";
+import k8sMonit from "../assets/k8sMonit.png";
 
 const Projects = () => {
   return (
@@ -37,6 +38,16 @@ const Projects = () => {
       >
         Projects
       </Text>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+          img={k8sMonit}
+          text="Observability Project"
+          text2="Kubernetes, Prometheus, Grafana, Helm"
+          link="https://github.com/jocasantos/how-to-setup-prometheus-and-grafana-in-k8s"
+          link2="https://github.com/jocasantos/how-to-setup-prometheus-and-grafana-in-k8s"
+        />
+      </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
