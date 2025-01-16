@@ -11,6 +11,7 @@ import jenkinsBasic from "../assets/jenkinsBasic.png";
 import githubActions from "../assets/githubActions.png";
 import dockerproject2 from "../assets/dockerproject2.png";
 import k8sMonit from "../assets/k8s-monit.png";
+import jenkinsPipe from "../assets/jenkins-pipe.png";
 
 const Projects = () => {
   return (
@@ -38,6 +39,16 @@ const Projects = () => {
       >
         Projects
       </Text>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+          img={jenkinsPipe}
+          text="End-to-end CI/CD Pipeline"
+          text2="Jenkins, SonarQube, Kubernetes, Argo CD, Docker, Maven"
+          link="https://github.com/jocasantos/jenkins-end-to-end-cicd"
+          link2="https://github.com/jocasantos/jenkins-end-to-end-cicd"
+        />
+      </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
