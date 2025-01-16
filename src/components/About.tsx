@@ -58,21 +58,11 @@ const About = () => {
               Coding
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-              I am a dedicated self-learner with a strong foundation in web
-              development and a growing expertise in <b>DevOps</b> and <b>Cloud Computing</b>. 
-              My journey began with mastering <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, 
-              which laid the groundwork for building dynamic and responsive front-end applications. 
-              I then advanced to <b>React</b> and <b>TypeScript</b>, honing my ability to create 
-              robust, scalable user interfaces.<br></br>
-              <br></br> To deepen my technical skillset, I explored backend development with <b>Next.js</b>, focusing on essential concepts such as <b>Authentication</b>, 
-              server-side rendering, and database management with both <b>SQL</b> and <b>NoSQL</b> solutions.<br></br>
-              <br></br> Currently, I am focused on expanding my knowledge in <b>DevOps</b> and <b>Cloud Computing</b> (certified), integrating modern development and deployment practices into 
-              my skillset. My experience includes working with <b>AWS</b> services (<b>S3</b>, <b>EC2</b>, <b>VPC</b>, <b>IAM</b>, <b>Lambda</b>, <b>DynamoDB</b>), containerization with <b>Docker</b>, infrastructure 
-              as code using <b>Terraform</b>, and configuration management with <b>Ansible</b>. 
-              I have also gained hands-on expertise in CI/CD tools like <b>Jenkins</b> and <b>GitHub Actions</b>, scripting with <b>Bash</b>, and leveraging <b>Git</b> and <b>GitHub</b> for version control and collaboration.<br></br>
-              <br></br> With a strong passion for continuous learning, I aim to bridge the gap 
-              between development and operations, enabling seamless, efficient, and scalable 
-              software delivery.
+            I am a passionate self-learner with a strong foundation in <b>DevOps</b> and <b>Cloud Computing</b>, complemented by a solid background in web development (<b>Next.JS</b>). With hands-on experience in modern development practices, I specialize in integrating development and operations to deliver scalable, efficient, and reliable software solutions.<br></br>
+<br></br> My technical expertise spans across a range of tools and technologies, including <b>AWS</b> services (<b>S3</b>, <b>EC2</b>, <b>VPC</b>, <b>IAM</b>, <b>Cost Management</b>, <b>CloudWatch</b>, <b>Lambda</b>, <b>DynamoDB</b>), containerization with <b>Docker</b>, and container orchestration using <b>Kubernetes</b>. I am proficient in <b>Terraform</b> for infrastructure as code, <b>Ansible</b> for configuration management, and CI/CD tools like <b>Jenkins</b> and <b>GitHub Actions</b> for automating deployment pipelines.<br></br>
+<br></br> In addition, I have hands-on experience with monitoring and visualization tools like <b>Prometheus</b> and <b>Grafana</b>, as well as continuous deployment with <b>Argo CD</b>, ensuring seamless and reliable application delivery.<br></br>
+<br></br> With a focus on continuous learning and problem-solving, I am eager to contribute to a dynamic team, leveraging my skills to improve operational efficiency, automate processes, and drive innovation in the DevOps space.
+
             </Text>
           </Flex>
         </CardBody>
