@@ -42,9 +42,11 @@ const Projects = () => {
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={jenkinsPipe}
+
+          img={jenkinsPipe} //i want to stretch this image
+          
           text="End-to-end CI/CD Pipeline"
-          text2="Jenkins, SonarQube, Kubernetes, Argo CD, Docker, Maven"
+          text2="Jenkins, SonarQube, Kubernetes, Argo CD, Docker"
           link="https://github.com/jocasantos/jenkins-end-to-end-cicd"
           link2="https://github.com/jocasantos/jenkins-end-to-end-cicd"
         />
