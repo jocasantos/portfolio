@@ -39,11 +39,12 @@ const About = () => {
           </Flex>
           <Flex flexDirection="column" align="center">
             <Text mb={1} as="b">
-              Carrer Change
+              Life and Values
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-              Previously, I was a Fitness Instructor and a Futsal's Head Coach
-              with a Master's degree in Sports Science. I'm a husband and father of two.
+            I am a fluent English speaker with strong communication and interpersonal skills, making me an effective team player in small, collaborative environments. 
+            I am easy to work with, highly adaptable, and a very fast learner, quickly picking up new technologies and processes. 
+            Outside of work, I am a dedicated husband and father of two, balancing professional excellence with family life.
             </Text>
           </Flex>
         </CardBody>
@@ -59,7 +60,7 @@ const About = () => {
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
             I am a passionate self-learner with a strong foundation in <b>DevOps</b> and <b>Cloud Computing</b>, complemented by a solid background in web development (<b>Next.JS</b>). With hands-on experience in modern development practices, I specialize in integrating development and operations to deliver scalable, efficient, and reliable software solutions.<br></br>
-<br></br> My technical expertise spans across a range of tools and technologies, including <b>AWS</b> services (<b>S3</b>, <b>EC2</b>, <b>VPC</b>, <b>IAM</b>, <b>Cost Management</b>, <b>CloudWatch</b>, <b>Lambda</b>, <b>DynamoDB</b>), containerization with <b>Docker</b>, and container orchestration using <b>Kubernetes</b>. I am proficient in <b>Terraform</b> for infrastructure as code, <b>Ansible</b> for configuration management, and CI/CD tools like <b>Jenkins</b> and <b>GitHub Actions</b> for automating deployment pipelines.<br></br>
+<br></br> My technical expertise spans across a range of tools and technologies, including <b>AWS</b> services (<b>S3</b>, <b>EC2</b>, <b>VPC</b>, <b>IAM</b>, <b>Cost Management</b>, <b>CloudWatch</b>, <b>Lambda</b>, <b>Pipeline</b>), containerization with <b>Docker</b>, and container orchestration using <b>Kubernetes</b>. I am proficient in <b>Terraform</b> for infrastructure as code, <b>Ansible</b> for configuration management, and CI/CD tools like <b>Jenkins</b> and <b>GitHub Actions</b> for automating deployment pipelines.<br></br>
 <br></br> In addition, I have hands-on experience with monitoring and visualization tools like <b>Prometheus</b> and <b>Grafana</b>, as well as continuous deployment with <b>Argo CD</b>, ensuring seamless and reliable application delivery.<br></br>
 <br></br> With a focus on continuous learning and problem-solving, I am eager to contribute to a dynamic team, leveraging my skills to improve operational efficiency, automate processes, and drive innovation in the DevOps space.
 
