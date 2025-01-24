@@ -42,8 +42,8 @@ const About = () => {
               Life and Values
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-            I am a fluent English speaker with strong communication and interpersonal skills, making me an effective team player in small, collaborative environments. 
-            I am easy to work with, highly adaptable, and a very fast learner, quickly picking up new technologies and processes. 
+            I am a <b>fluent English</b> speaker with <b>strong communication</b> and interpersonal skills, making me an effective team player in small, collaborative environments. 
+            I am <b>easy to work with</b>, highly adaptable, and a very <b>fast learner</b>, quickly picking up new technologies and processes. 
             Outside of work, I am a dedicated husband and father of two, balancing professional excellence with family life.
             </Text>
           </Flex>
