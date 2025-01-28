@@ -3,14 +3,11 @@ import {
   Button,
   Flex,
   HStack,
-  Image,
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { Link as ChakraLink } from "@chakra-ui/react";
 import { MdEmail, MdCopyright } from "react-icons/md";
 import { Link } from "react-scroll";
-import clf from "../assets/clf.png";
 
 const Contact = () => {
   return (
@@ -71,14 +68,6 @@ const Contact = () => {
           LinkedIn
         </Button>
       </Flex>
-      <Box height={10}></Box>
-      <Stack direction="row" spacing={8}>
-        <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
-          <Image  
-          src={clf}
-          />
-        </ChakraLink>
-      </Stack>
       <Box height={40}></Box>
       <Stack cursor={"pointer"} direction="row" spacing={8}>
         <Link
