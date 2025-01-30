@@ -12,6 +12,7 @@ import githubActions from "../assets/githubActions.png";
 import dockerproject2 from "../assets/dockerproject2.png";
 import k8sMonit from "../assets/k8s-monit.png";
 import jenkinsPipe from "../assets/jenkins-pipe.png";
+import k8s_eks from "../assets/k8s_eks.png";
 
 const Projects = () => {
   return (
@@ -49,6 +50,16 @@ const Projects = () => {
           text2="Jenkins, SonarQube, Kubernetes, Argo CD, Docker"
           link="https://github.com/jocasantos/jenkins-end-to-end-cicd"
           link2="https://github.com/jocasantos/jenkins-end-to-end-cicd"
+        />
+      </Flex>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+          img={k8s_eks}
+          text="EKS Project"
+          text2="AWS, EKS, Helm, Load Balancer, Kubernetes, Ingress Controller"
+          link="https://github.com/jocasantos/eks-project"
+          link2="https://github.com/jocasantos/eks-project"
         />
       </Flex>
       <Box mt={4} />
