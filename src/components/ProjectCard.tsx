@@ -17,9 +17,10 @@ interface Props {
   img: string;
   link: string;
   link2: string;
+  imgStyle?: React.CSSProperties;
 }
 
-const ProjectCard = ({ text, text2, img, link, link2 }: Props) => {
+const ProjectCard = ({ text, text2, img, link, link2, imgStyle }: Props) => {
   const handleButtonClick = (e: React.MouseEvent) => {
     e.preventDefault();
     window.open(link2, "_blank");
@@ -43,7 +44,7 @@ const ProjectCard = ({ text, text2, img, link, link2 }: Props) => {
         <VStack>
           <Image
             ml={1}
-            objectFit="cover"
+            objectFit={imgStyle?.objectFit || "cover"} // Use imgStyle prop or default to "cover"
             borderRadius={10}
             src={img}
             alt="project 1 image"

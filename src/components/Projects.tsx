@@ -13,6 +13,7 @@ import dockerproject2 from "../assets/dockerproject2.png";
 import k8sMonit from "../assets/k8s-monit.png";
 import jenkinsPipe from "../assets/jenkins-pipe.png";
 import k8s_eks from "../assets/k8s_eks.png";
+import aws_cost_opti from "../assets/aws-cost-opti.png";
 
 const Projects = () => {
   return (
@@ -45,11 +46,21 @@ const Projects = () => {
         <ProjectCard
 
           img={jenkinsPipe} //i want to stretch this image
-          
+          imgStyle={{ objectFit: "contain" }}
           text="End-to-end CI/CD Pipeline"
           text2="Jenkins, SonarQube, Kubernetes, Argo CD, Docker"
           link="https://github.com/jocasantos/jenkins-end-to-end-cicd"
           link2="https://github.com/jocasantos/jenkins-end-to-end-cicd"
+        />
+      </Flex>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+          img={aws_cost_opti}
+          text="AWS Cost Optimization"
+          text2="AWS, Lambda, Python, CloudWatch"
+          link="https://github.com/jocasantos/aws-cloud-cost-optimization/"
+          link2="https://github.com/jocasantos/aws-cloud-cost-optimization/"
         />
       </Flex>
       <Box mt={4} />
