@@ -14,6 +14,7 @@ import k8sMonit from "../assets/k8s-monit.png";
 import jenkinsPipe from "../assets/jenkins-pipe.png";
 import k8s_eks from "../assets/k8s_eks.png";
 import aws_cost_opti from "../assets/aws-cost-opti.png";
+import eks_helm from "../assets/eks-helm.png";
 
 const Projects = () => {
   return (
@@ -41,6 +42,17 @@ const Projects = () => {
       >
         Projects
       </Text>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+
+          img={eks_helm} //i want to stretch this image
+          text="EKS / Kubernetes Project"
+          text2="EKS, AWS, Helm, Kubernetes, ALB, Ingress Controller"
+          link="https://github.com/jocasantos/3-tier-app-eks"
+          link2="https://github.com/jocasantos/3-tier-app-eks"
+        />
+      </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
