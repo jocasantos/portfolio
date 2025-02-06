@@ -15,6 +15,7 @@ import jenkinsPipe from "../assets/jenkins-pipe.png";
 import k8s_eks from "../assets/k8s_eks.png";
 import aws_cost_opti from "../assets/aws-cost-opti.png";
 import eks_helm from "../assets/eks-helm.png";
+import vpc_diagram from "../assets/vpc-diagram.png";
 
 const Projects = () => {
   return (
@@ -73,6 +74,17 @@ const Projects = () => {
           text2="AWS, Lambda, Python, CloudWatch"
           link="https://github.com/jocasantos/aws-cloud-cost-optimization/"
           link2="https://github.com/jocasantos/aws-cloud-cost-optimization/"
+        />
+      </Flex>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+          img={vpc_diagram}
+          imgStyle={{ objectFit: "contain" }}
+          text="Terraform Project"
+          text2="Terraform, AWS, Load Balancer, VPC, EC2, Shell Scripting"
+          link="https://github.com/jocasantos/terraform-aws-project"
+          link2="https://github.com/jocasantos/terraform-aws-project"
         />
       </Flex>
       <Box mt={4} />
