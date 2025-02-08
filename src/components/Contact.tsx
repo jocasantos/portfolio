@@ -8,6 +8,7 @@ import {
 } from "@chakra-ui/react";
 import { MdEmail, MdCopyright } from "react-icons/md";
 import { Link } from "react-scroll";
+import { Link as Link_chakra }  from "@chakra-ui/react";
 
 const Contact = () => {
   return (
@@ -48,22 +49,28 @@ const Contact = () => {
         px={2}
       >
         <Button
+          as = {Link_chakra}
           leftIcon={<MdEmail />}
           color="black"
           fontSize="sm"
           fontWeight={400}
           bg="white"
-          _hover={{ transform: "scale(1.05)" }}
+          _hover={{ transform: "scale(1.05)", textDecoration: "none" }}
+          href="mailto:joaopcsantos1@gmail.com"
         >
           joaopcsantos1@gmail.com
         </Button>
         <Button
+          as={Link_chakra}
           leftIcon={<MdEmail />}
           color="black"
           fontSize="sm"
           fontWeight={400}
           bg="white"
-          _hover={{ transform: "scale(1.05)" }}
+          _hover={{ transform: "scale(1.05)", textDecoration: "none" }}
+          href="https://www.linkedin.com/in/jocasantos/"
+          isExternal
+          
         >
           LinkedIn
         </Button>

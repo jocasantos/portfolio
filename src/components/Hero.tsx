@@ -14,6 +14,7 @@ import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import clf from "../assets/clf.png";
+import CV from "../assets/Joao Santos CV.pdf";
 
 const Hero = () => {
   return (
@@ -44,7 +45,7 @@ const Hero = () => {
         DevOps / Cloud Engineer
       </Text>
 
-      <Box mt={2} />
+      <Box mt={4} />
 
       <Stack direction="row" spacing={8}>
         <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
@@ -54,10 +55,14 @@ const Hero = () => {
         </ChakraLink>
       </Stack>
 
-      <Box mt={6} />
+      <Box mt={7} />
 
       <HStack>
         <Button
+          as={ChakraLink}
+          href="/João Santos CV.pdf"
+          download="João Santos CV.pdf"
+
           bg="white"
           fontSize="sm"
           px="21px"
@@ -71,6 +76,7 @@ const Hero = () => {
             color: "white",
             transition: "0.2s",
             transform: "scale(0.98)",
+            textDecoration: "none",
           }}
         >
           Download CV
@@ -107,7 +113,7 @@ const Hero = () => {
         <Link
           _hover={{ transform: "scale(1.1)" }}
           isExternal
-          href="https://www.linkedin.com/in/jo%C3%A3o-santos-b10bbb295/"
+          href="https://www.linkedin.com/in/jocasantos/"
         >
           <FaLinkedin size={40} color="black" />
         </Link>

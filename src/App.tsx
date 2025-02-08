@@ -19,7 +19,7 @@ function App() {
       <Projects />
       <Box bg="white" pt={40}></Box>
       <Courses />
-      <Box bg="white" pt={40}></Box>
+      <Box bg="white" pt={20}></Box>
       <Contact />
     </>
   );
