@@ -24,8 +24,8 @@ const Courses = () => {
       >
         Expertise
       </Text>
-      <Box mt={1} />
-      <Card w="360px" bg="white" color="black" >
+      
+{/*       <Card w="360px" bg="white" color="black" >
         <CardBody>
           <Flex justifyContent="center" mb={1}>
             <FaCode />
@@ -48,7 +48,7 @@ const Courses = () => {
           </Flex>
         </CardBody>
       </Card>
-      <Box mt={2} />
+      <Box mt={2} /> */}
       <Card w="360px" bg="white" color="black" shadow={""}>
         <CardBody>
           <Flex justifyContent="center" mb={1}>

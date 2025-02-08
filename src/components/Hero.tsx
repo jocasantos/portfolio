@@ -12,6 +12,8 @@ import joca from "../assets/joca.jpeg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
+import { Link as ChakraLink } from "@chakra-ui/react";
+import clf from "../assets/clf.png";
 
 const Hero = () => {
   return (
@@ -42,7 +44,18 @@ const Hero = () => {
         DevOps / Cloud Engineer
       </Text>
 
-      <Box mt={10} />
+      <Box mt={2} />
+
+      <Stack direction="row" spacing={8}>
+        <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
+          <Image  
+          src={clf}
+          />
+        </ChakraLink>
+      </Stack>
+
+      <Box mt={6} />
+
       <HStack>
         <Button
           bg="white"
