@@ -14,7 +14,6 @@ import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import clf from "../assets/clf.png";
-import CV from "../assets/Joao Santos CV.pdf";
 
 const Hero = () => {
   return (
