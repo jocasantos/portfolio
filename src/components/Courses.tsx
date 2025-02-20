@@ -3,6 +3,7 @@ import { Text } from "@chakra-ui/react";
 import { FaCode } from "react-icons/fa";
 import clf from "../assets/clf.png";
 import { Link as ChakraLink } from "@chakra-ui/react";
+import saa from "../assets/saa.png";
 
 const Courses = () => {
   return (
@@ -58,10 +59,15 @@ const Courses = () => {
             <Text mb={1} as="b">
               Certifications
             </Text>
-            <Box mt={1} />
+            <Box mt={4} />
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-            <Stack direction="row" spacing={8}>
-        <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
+            <Stack direction="column" spacing={4}>
+              <ChakraLink href="https://www.credly.com/badges/4cf88c21-3a01-4988-a36b-c6b4882bc84d" isExternal>
+                <Image  
+                src={saa}
+                />
+              </ChakraLink>
+              <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
           <Image  
           src={clf}
           />

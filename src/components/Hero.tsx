@@ -13,7 +13,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import { Link as ChakraLink } from "@chakra-ui/react";
-import clf from "../assets/clf.png";
+import saa from "../assets/saa.png";
 
 const Hero = () => {
   return (
@@ -47,11 +47,11 @@ const Hero = () => {
       <Box mt={4} />
 
       <Stack direction="row" spacing={8}>
-        <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
-          <Image  
-          src={clf}
-          />
-        </ChakraLink>
+        <ChakraLink href="https://www.credly.com/badges/4cf88c21-3a01-4988-a36b-c6b4882bc84d" isExternal>
+            <Image  
+            src={saa}
+            />
+          </ChakraLink>
       </Stack>
 
       <Box mt={7} />
