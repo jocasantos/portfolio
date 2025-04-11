@@ -14,6 +14,7 @@ import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import saa from "../assets/saa.png";
+import cka from "../assets/cka.png";
 
 const Hero = () => {
   return (
@@ -46,10 +47,17 @@ const Hero = () => {
 
       <Box mt={4} />
 
-      <Stack direction="row" spacing={8}>
+      <Stack direction="row" spacing={8} align="center">
+        <ChakraLink href="https://www.credly.com/badges/5a5e6b1d-b3c7-4f1d-a376-96d20d2eb6ca" isExternal>
+            <Image  
+            src={cka}
+            width={120}
+            />
+          </ChakraLink>
         <ChakraLink href="https://www.credly.com/badges/4cf88c21-3a01-4988-a36b-c6b4882bc84d" isExternal>
             <Image  
             src={saa}
+            width={112}
             />
           </ChakraLink>
       </Stack>
