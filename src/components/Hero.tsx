@@ -67,8 +67,9 @@ const Hero = () => {
       <HStack>
         <Button
           as={ChakraLink}
-          href="/João Santos CV.pdf"
-          download="João Santos CV.pdf"
+          href="https://rxresu.me/joaopcsantos1/joao-santos-cv"
+          isExternal
+        
 
           bg="white"
           fontSize="sm"
