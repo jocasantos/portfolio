@@ -5,6 +5,7 @@ import clf from "../assets/clf.png";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import saa from "../assets/saa.png";
 import cka from "../assets/cka.png";
+import ckad from "../assets/ckad.png";
 
 const Courses = () => {
   return (
@@ -75,6 +76,12 @@ const Courses = () => {
                 width={112}
                 />
               </ChakraLink>
+              <ChakraLink href="https://www.credly.com/badges/59bc212d-6665-48e7-a726-fe1591d3875e" isExternal>
+          <Image  
+          src={ckad}
+          width={112}
+          />
+        </ChakraLink>
               <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
           <Image  
           src={clf}
