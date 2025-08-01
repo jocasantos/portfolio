@@ -16,6 +16,7 @@ import k8s_eks from "../assets/k8s_eks.png";
 import aws_cost_opti from "../assets/aws-cost-opti.png";
 import eks_helm from "../assets/eks-helm.png";
 import vpc_diagram from "../assets/vpc-diagram.png";
+import lp from "../assets/lp.png";
 
 const Projects = () => {
   return (
@@ -43,6 +44,17 @@ const Projects = () => {
       >
         Projects
       </Text>
+      <Box mt={4} />
+      <Flex>
+        <ProjectCard
+
+          img={lp} //i want to stretch this image
+          text="LiftyPost.com"
+          text2="Transform YouTube Videos into Engaging Posts"
+          link="https://liftypost.com/"
+          link2="https://liftypost.com/"
+        />
+      </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
