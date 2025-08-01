@@ -14,7 +14,8 @@ import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import saa from "../assets/saa.png";
-import cka from "../assets/cka.png";
+import astronaut from "../assets/kubestronaut.png";
+import EbookPopup from "./EbookPopup";
 
 const Hero = () => {
   return (
@@ -48,9 +49,9 @@ const Hero = () => {
       <Box mt={4} />
 
       <Stack direction="row" spacing={8} align="center">
-        <ChakraLink href="https://www.credly.com/badges/5a5e6b1d-b3c7-4f1d-a376-96d20d2eb6ca" isExternal>
+        <ChakraLink href="https://www.credly.com/badges/fe8af054-4f1b-49a5-b4f6-35d7ecaec7f9/public_url" isExternal>
             <Image  
-            src={cka}
+            src={astronaut}
             width={120}
             />
           </ChakraLink>
@@ -133,6 +134,9 @@ const Hero = () => {
           <FaGithub size={40} color="black" />
         </Link>
       </HStack>
+      
+      {/* Ebook Popup Component */}
+      <EbookPopup />
     </Stack>
   );
 };

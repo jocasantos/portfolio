@@ -6,6 +6,10 @@ import { Link as ChakraLink } from "@chakra-ui/react";
 import saa from "../assets/saa.png";
 import cka from "../assets/cka.png";
 import ckad from "../assets/ckad.png";
+import astronaut from "../assets/kubestronaut.png";
+import kcna from "../assets/kcna.png";
+import kcsa from "../assets/kcsa.png";
+import cks from "../assets/cks.png";
 
 const Courses = () => {
   return (
@@ -62,34 +66,70 @@ const Courses = () => {
               Certifications
             </Text>
             <Box mt={4} />
-            <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
             <Stack direction="column" spacing={4} align="center">
-            <ChakraLink href="https://www.credly.com/badges/5a5e6b1d-b3c7-4f1d-a376-96d20d2eb6ca" isExternal>
-            <Image  
-            src={cka}
-            width={120}
-            />
-            </ChakraLink>
-              <ChakraLink href="https://www.credly.com/badges/4cf88c21-3a01-4988-a36b-c6b4882bc84d" isExternal>
+              {/* Row 1: Kubestronaut */}
+              <ChakraLink href="https://www.credly.com/badges/fe8af054-4f1b-49a5-b4f6-35d7ecaec7f9/public_url" isExternal>
                 <Image  
-                src={saa}
-                width={112}
+                  src={astronaut}
+                  width={120}
                 />
               </ChakraLink>
-              <ChakraLink href="https://www.credly.com/badges/59bc212d-6665-48e7-a726-fe1591d3875e" isExternal>
-          <Image  
-          src={ckad}
-          width={112}
-          />
-        </ChakraLink>
+              
+              {/* Row 2: k8s */}
+              <Stack direction="row" spacing={4} align="center">
+
+                <ChakraLink href="https://www.credly.com/badges/59bc212d-6665-48e7-a726-fe1591d3875e" isExternal>
+                  <Image  
+                    src={ckad}
+                    width={140}
+                  />
+                </ChakraLink>
+                <ChakraLink href="https://www.credly.com/badges/5a5e6b1d-b3c7-4f1d-a376-96d20d2eb6ca" isExternal>
+                  <Image  
+                    src={cka}
+                    width={148}
+                  />
+                </ChakraLink>      
+                <ChakraLink href="https://www.credly.com/badges/dad760b1-dd3d-4a2d-aff9-08b9f82a1ef8/public_url" isExternal>
+                  <Image  
+                    src={cks}
+                    width={120}
+                  />
+                </ChakraLink>                           
+              </Stack>
+              
+              {/* Row 3: k8s teoric */}
+              <Stack direction="row" spacing={4} align="center">
+                <ChakraLink href="https://www.credly.com/badges/12761ae1-3eb2-47d9-bf8a-c138632bc0b6/public_url" isExternal>
+                  <Image  
+                    src={kcna}
+                    width={92}
+                  />
+                </ChakraLink>    
+                <ChakraLink href="https://www.credly.com/badges/72b8ab32-869a-4354-bf90-6b146fdfc084/public_url" isExternal>
+                  <Image  
+                    src={kcsa}
+                    width={92}
+                  />
+                </ChakraLink>                           
+              </Stack>
+              
+              {/* Row 4: aws */}
+              <Stack direction="row" spacing={4} align="center">
               <ChakraLink href="https://www.credly.com/badges/63406fd3-4ae1-45dd-8955-dbe5aad099d7" isExternal>
-          <Image  
-          src={clf}
-          width={112}
-          />
-        </ChakraLink>
-      </Stack>
-            </Text>
+                <Image  
+                  src={clf}
+                  width={112}
+                />
+              </ChakraLink>              
+              <ChakraLink href="https://www.credly.com/badges/4cf88c21-3a01-4988-a36b-c6b4882bc84d" isExternal>
+                <Image  
+                  src={saa}
+                  width={112}
+                />
+              </ChakraLink>
+              </Stack>
+            </Stack>
           </Flex>
         </CardBody>
       </Card>
