@@ -23,7 +23,7 @@ const About = () => {
       >
         About Me
       </Text>
-      <Image
+      {/* <Image
         mt={6}
         objectFit="contain"
         boxSize={140}
@@ -31,8 +31,8 @@ const About = () => {
         src={jocacolor}
         alt="Joao Santos"
         mb={2}
-      />
-      <Card mb={1} w="360px" bg="white" color="black">
+      /> */}
+      <Card mb={1} w={{ base: "360px", md: "600px" }} bg="white" color="black">
         <CardBody>
           <Flex justifyContent="center" mb={1}>
             <FaCode />
@@ -50,7 +50,7 @@ const About = () => {
           </Flex>
         </CardBody>
       </Card>
-      <Card w="360px" bg="white" color="black">
+      <Card w={{ base: "360px", md: "600px" }} bg="white" color="black">
         <CardBody>
           <Flex justifyContent="center" mb={1}>
             <FaCode />
@@ -64,7 +64,6 @@ const About = () => {
 <br></br> I work at <b>Scalabit.dev</b> as a <b>DevSecOps Engineer</b> where we empower teams to deliver high-quality value to their customers faster, securely, seamlessly through full automation. Basically, other companies hire mine to do <b>DevOps and Security</b> work on their projects.<br></br>
 <br></br> I work mainly with <b>Cloud</b> (AWS, Azure, GCP), <b>Kubernetes</b>, <b>Terraform</b>, <b>Docker</b>, <b>CI/CD</b> (GitHub Actions, GitLab), <b>Taskfile</b>, <b>Security Tools</b> and ensure that security best practices are followed.<br></br>
 <br></br> <b>Automate projects</b>, <b>cloud migrations</b>, <b>enhance security in pipelines</b>, and more!
-
             </Text>
           </Flex>
         </CardBody>
