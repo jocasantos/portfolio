@@ -65,8 +65,8 @@ const Hero = () => {
 
       <Box mt={7} />
 
-      <HStack>
-        <Button
+      {/* <HStack> */}
+        {/* <Button
           as={ChakraLink}
           href="https://rxresu.me/joaopcsantos1/joao-santos-cv"
           isExternal
@@ -89,8 +89,8 @@ const Hero = () => {
           }}
         >
           Download CV
-        </Button>
-        <Scroll
+        </Button> */}
+        {/* <Scroll
           to="Contact"
           spy={true}
           smooth={true}
@@ -100,7 +100,6 @@ const Hero = () => {
         >
           <Button
             color="white"
-            ml={1}
             border="1px"
             borderRadius="30px"
             fontSize="sm"
@@ -117,8 +116,8 @@ const Hero = () => {
             Contact Info
           </Button>
         </Scroll>
-      </HStack>
-      <HStack mt={8} spacing={10}>
+      </HStack> */}
+      <HStack  spacing={10}>
         <Link
           _hover={{ transform: "scale(1.1)" }}
           isExternal
@@ -126,6 +125,32 @@ const Hero = () => {
         >
           <FaLinkedin size={40} color="black" />
         </Link>
+        <Scroll
+          to="Contact"
+          spy={true}
+          smooth={true}
+          offset={-160}
+          duration={500}
+          key={"Contact3"}
+        >
+          <Button
+            color="white"
+            border="1px"
+            borderRadius="30px"
+            fontSize="sm"
+            px="24px"
+            height="54px"
+            bg="RGBA(0, 0, 0, 0.50)"
+            _hover={{
+              bg: "black",
+              color: "white",
+              transition: "0.2s",
+              transform: "scale(0.98)",
+            }}
+          >
+            Contact Info
+          </Button>
+        </Scroll>
         <Link
           _hover={{ transform: "scale(1.1)" }}
           isExternal
