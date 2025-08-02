@@ -56,9 +56,9 @@ const Contact = () => {
           fontWeight={400}
           bg="white"
           _hover={{ transform: "scale(1.05)", textDecoration: "none" }}
-          href="mailto:joaopcsantos1@gmail.com"
+          href="mailto:devops@jocasantos.com"
         >
-          joaopcsantos1@gmail.com
+          devops@jocasantos.com
         </Button>
         <Button
           as={Link_chakra}
