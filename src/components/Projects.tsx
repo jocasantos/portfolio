@@ -1,5 +1,5 @@
-import { Box, Flex, Stack, Text } from "@chakra-ui/react";
-import ProjectCard from "./ProjectCard";
+import { Box, Stack, Text } from "@chakra-ui/react";
+import ProjectCarousel from "./ProjectCarousel";
 import SladWebsite from "../assets/slad_project_img.jpeg";
 import GamesHub from "../assets/games-hub.jpeg";
 import MuscleTracker from "../assets/MuscleTracker.jpeg";
