@@ -42,9 +42,10 @@ const About = () => {
               Life and Values
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-            I am a <b>fluent English</b> speaker with <b>strong communication</b> and interpersonal skills, making me an effective team player in small, collaborative environments. 
-            I am <b>easy to work with</b>, highly adaptable, and a very <b>fast learner</b>, quickly picking up new technologies and processes. 
-            Outside of work, I am a dedicated husband and father of two, balancing professional excellence with family life.
+            In mid-2023, I made a <b>bold decision</b> to leave my career as a personal trainer and enter the tech world. With <b>zero programming background</b> and a limited budget, I relied entirely on <b>free resources</b> and determination. This while working <b>full-time</b> plus <b>wife</b> and <b>2 kids</b>, I did it!
+            <br></br>
+            <br></br>
+            I really like to <b>guide and help other people</b>, and I know there is a lot of people out there like me… Who needs a job with more <b>flexibility</b>, so they can spend more <b>quality time with their family</b>. And yah, the <b>salaries usually are better</b> than others fields!
             </Text>
           </Flex>
         </CardBody>
@@ -56,13 +57,13 @@ const About = () => {
           </Flex>
           <Flex flexDirection="column" align="center">
             <Text mb={1} as="b">
-              Coding
+              What I Do
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-            I am a passionate professional with a strong foundation in <b>DevOps</b> and <b>Cloud Computing</b>, complemented by a solid background in web development. With hands-on experience in modern development practices, I specialize in integrating development and operations to deliver scalable, efficient, and reliable software solutions.<br></br>
-<br></br> My technical expertise spans across a range of tools and technologies, including <b>AWS</b> services (<b>S3</b>, <b>EC2</b>, <b>VPC</b>, <b>IAM</b>, <b>Cost Management</b>, <b>CloudWatch</b>, <b>EKS</b>, <b>Lambda</b>, <b>CI/CD Tools</b>), containerization with <b>Docker</b>, and container orchestration using <b>Kubernetes</b>. I am proficient in <b>Terraform</b> for infrastructure as code, <b>Ansible</b> for configuration management, and CI/CD tools like <b>Jenkins</b> and <b>GitHub Actions</b> for automating deployment pipelines.<br></br>
-<br></br> In addition, I have hands-on experience with monitoring and visualization tools like <b>Prometheus</b> and <b>Grafana</b>, as well as continuous deployment with <b>Argo CD</b>, ensuring seamless and reliable application delivery.<br></br>
-<br></br> With a focus on continuous learning and problem-solving, I am eager to contribute to a dynamic team, leveraging my skills to improve operational efficiency, automate processes, and drive innovation in the DevOps space.
+            I am a passionate professional with a strong foundation in <b>DevOps</b> and <b>Cloud Computing</b>, complemented by a solid background in <b>Web Development</b>. With hands-on experience in modern development practices, I specialize in integrating development and operations to deliver scalable, efficient, and reliable software solutions.<br></br>
+<br></br> I work at <b>Scalabit.dev</b> as a <b>DevSecOps Engineer</b> where we empower teams to deliver high-quality value to their customers faster, securely, seamlessly through full automation. Basically, other companies hire mine to do <b>DevOps and Security</b> work on their projects.<br></br>
+<br></br> I work mainly with <b>Cloud</b> (AWS, Azure, GCP), <b>Kubernetes</b>, <b>Terraform</b>, <b>Docker</b>, <b>CI/CD</b> (GitHub Actions, GitLab), <b>Taskfile</b>, <b>Security Tools</b> and ensure that security best practices are followed.<br></br>
+<br></br> <b>Automate projects</b>, <b>cloud migrations</b>, <b>enhance security in pipelines</b>, and more!
 
             </Text>
           </Flex>
