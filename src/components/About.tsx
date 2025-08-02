@@ -1,5 +1,4 @@
-import { Stack, Image, Card, CardBody, Flex } from "@chakra-ui/react";
-import jocacolor from "../assets/joca_color3.webp";
+import { Stack, Card, CardBody, Flex } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 import { FaCode } from "react-icons/fa";
 
