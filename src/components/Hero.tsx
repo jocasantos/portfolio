@@ -9,7 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import joca from "../assets/joca.jpeg";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaCalendarAlt } from "react-icons/fa";
 import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import { Link as ChakraLink } from "@chakra-ui/react";
@@ -20,13 +20,60 @@ import EbookPopup from "./EbookPopup";
 const Hero = () => {
   return (
     <Stack id="Home" bg="white" h="100%" align={"center"} direction={"column"}>
-      <Image
-        objectFit="cover"
-        boxSize={200}
-        borderRadius="full"
-        src={joca}
-        alt="Joao Santos"
-      />
+      {/* Profile Image with Floating Button */}
+      <Box position="relative" display="inline-block">
+        <Image
+          objectFit="cover"
+          boxSize={200}
+          borderRadius="full"
+          src={joca}
+          alt="Joao Santos"
+        />
+        
+        {/* Floating Schedule Button */}
+        <Button
+          as={ChakraLink}
+          href="https://stan.store/jocasantos"
+          isExternal
+          position="absolute"
+          top={2}
+          right={-4}
+          size="md"
+          leftIcon={<FaCalendarAlt />}
+          bg="green.500"
+          color="white"
+          borderRadius="full"
+          px={4}
+          py={3}
+          fontSize="sm"
+          fontWeight="600"
+          boxShadow="0 4px 12px rgba(0, 0, 0, 0.15)"
+          _hover={{
+            bg: "green.600",
+            transform: "scale(1.05)",
+            boxShadow: "0 6px 16px rgba(0, 0, 0, 0.2)",
+            textDecoration: "none",
+          }}
+          _active={{
+            transform: "scale(0.98)",
+          }}
+          transition="all 0.2s ease"
+          zIndex={2}
+          animation="float 3s ease-in-out infinite"
+          sx={{
+            "@keyframes float": {
+              "0%, 100%": {
+                transform: "translateY(0px)",
+              },
+              "50%": {
+                transform: "translateY(-6px)",
+              },
+            },
+          }}
+        >
+          1:1 Call
+        </Button>
+      </Box>
       <Text
         fontWeight="500"
         letterSpacing={-1}
