@@ -59,7 +59,7 @@ const About = () => {
               What I Do
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-            I am a passionate professional with a strong foundation in <b>DevOps</b> and <b>Cloud Computing</b>, complemented by a solid background in <b>Web Development</b>. With hands-on experience in modern development practices, I specialize in integrating development and operations to deliver scalable, efficient, and reliable software solutions.<br></br>
+            I am a passionate professional with a strong foundation in <b>DevOps</b> and <b>Cloud Computing</b>, complemented by a solid background in <b>Web Development</b>. <br></br>
 <br></br> I work at <b>Scalabit.dev</b> as a <b>DevSecOps Engineer</b> where we empower teams to deliver high-quality value to their customers faster, securely, seamlessly through full automation. Basically, other companies hire mine to do <b>DevOps and Security</b> work on their projects.<br></br>
 <br></br> I work mainly with <b>Cloud</b> (AWS, Azure, GCP), <b>Kubernetes</b>, <b>Terraform</b>, <b>Docker</b>, <b>CI/CD</b> (GitHub Actions, GitLab), <b>Taskfile</b>, <b>Security Tools</b> and ensure that security best practices are followed.<br></br>
 <br></br> <b>Automate projects</b>, <b>cloud migrations</b>, <b>enhance security in pipelines</b>, and more!
